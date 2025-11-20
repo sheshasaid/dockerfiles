@@ -1,3 +1,3 @@
-FORM almalinux:9
+FROM almalinux:9
 LABEL course="docker" \
-        trainer="sivakuamr"
+      trainer="sivakumar"
