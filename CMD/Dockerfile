@@ -1,3 +1,3 @@
-FROM sheshasaid/run:v1
+FROM almalinux:v1
 RUN dnf install nginx -y
 CMD ["nginx", "-g", "daemon off;"]
